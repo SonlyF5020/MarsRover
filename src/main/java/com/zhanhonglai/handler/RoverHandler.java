@@ -1,5 +1,6 @@
 package com.zhanhonglai.handler;
 
+import com.zhanhonglai.command.*;
 import com.zhanhonglai.direction.*;
 import com.zhanhonglai.position.RoverPosition;
 import com.zhanhonglai.rover.Rover;
@@ -36,17 +37,21 @@ public class RoverHandler {
     public void handleCommand(String commands) {
         commands=commands.toUpperCase();
         for (int i = 0; i < commands.length(); i++) {
-            switch (commands.charAt(i)) {
-                case 'M':
-                    rover.move();
-                    break;
-                case 'L':
-                    rover.turnLeft();
-                    break;
-                case 'R':
-                    rover.turnRight();
-                    break;
-            }
+            Command exactCommand = getCommand(commands.charAt(i));
+            exactCommand.handleCommand(rover);
+        }
+    }
+
+    private Command getCommand(char command) {
+        switch (command) {
+            case 'M':
+                return new MoveCommand();
+            case 'L':
+                return new LeftCommand();
+            case 'R':
+                return new RightCommand();
+            default:
+                return new UnknowCommand();
         }
     }
 

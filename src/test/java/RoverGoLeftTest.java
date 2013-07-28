@@ -16,7 +16,7 @@ public class RoverGoLeftTest {
         //WHEN
         rover.turnLeft();
         //THEN
-        assertThat(rover.getDirection().getDirectionString(),is("west"));
+        assertThat(rover.getDirection().getDirectionString(),is("W"));
     }
 
     @Test
@@ -28,7 +28,7 @@ public class RoverGoLeftTest {
         //WHEN
         rover.turnLeft();
         //THEN
-        assertThat(rover.getDirection().getDirectionString(),is("south"));
+        assertThat(rover.getDirection().getDirectionString(),is("S"));
     }
 
     @Test
@@ -40,7 +40,7 @@ public class RoverGoLeftTest {
         //WHEN
         rover.turnLeft();
         //THEN
-        assertThat(rover.getDirection().getDirectionString(),is("east"));
+        assertThat(rover.getDirection().getDirectionString(),is("E"));
     }
 
     @Test
@@ -52,7 +52,7 @@ public class RoverGoLeftTest {
         //WHEN
         rover.turnLeft();
         //THEN
-        assertThat(rover.getDirection().getDirectionString(),is("north"));
+        assertThat(rover.getDirection().getDirectionString(),is("N"));
     }
 
 }
