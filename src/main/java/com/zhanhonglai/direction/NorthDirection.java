@@ -1,11 +1,12 @@
 package com.zhanhonglai.direction;
 
-import com.zhanhonglai.Rover;
+import com.zhanhonglai.rover.Rover;
+import com.zhanhonglai.position.RoverPosition;
 
 public class NorthDirection extends RoverDirection {
 
     public NorthDirection() {
-        super("north");
+        super("N");
     }
 
     @Override
@@ -16,5 +17,12 @@ public class NorthDirection extends RoverDirection {
     @Override
     public void turnRight(Rover rover) {
         rover.setDirection(new EastDirection());
+    }
+
+    @Override
+    public void moveAhead(Rover rover) {
+        int tempXposition = rover.getPosition().getXposition();
+        int tempYposition = rover.getPosition().getYposition();
+        rover.setPosition(new RoverPosition(tempXposition,tempYposition+1));
     }
 }

@@ -1,6 +1,6 @@
 package com.zhanhonglai.direction;
 
-import com.zhanhonglai.Rover;
+import com.zhanhonglai.rover.Rover;
 
 public abstract class RoverDirection {
     private String directionString;

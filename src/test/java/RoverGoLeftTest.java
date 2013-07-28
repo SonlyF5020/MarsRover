@@ -1,5 +1,5 @@
 import com.zhanhonglai.direction.*;
-import com.zhanhonglai.Rover;
+import com.zhanhonglai.rover.Rover;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

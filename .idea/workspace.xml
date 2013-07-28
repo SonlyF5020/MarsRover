@@ -5,16 +5,20 @@
     <ignored path="marsRoverVersion1.0.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/RoverGoLeftTest.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374731475467" ignored="false" />
-    <file path="/fragment.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374732587952" ignored="false" />
-    <file path="/RoverDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374732617718" ignored="false" />
-    <file path="/Rover.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374732561581" ignored="false" />
+    <file path="/fragment.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374744498187" ignored="false" />
+    <file path="/RoverDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374753845401" ignored="false" />
+    <file path="/Rover.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374752861974" ignored="false" />
     <file path="/NorthDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374731902321" ignored="false" />
     <file path="/WestDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374731956478" ignored="false" />
     <file path="/SouthDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374731922541" ignored="false" />
-    <file path="/EastDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374731881033" ignored="false" />
+    <file path="/EastDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374741505829" ignored="false" />
     <file path="/RoverGoRightTest.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374732120164" ignored="false" />
-    <file path="/RoverGoAhead.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374732724072" ignored="false" />
-    <file path="/RoverPosition.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374732610125" ignored="false" />
+    <file path="/RoverGoAhead.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374742027351" ignored="false" />
+    <file path="/RoverPosition.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374757219741" ignored="false" />
+    <file path="/RoverHandlerTest.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374755230989" ignored="false" />
+    <file path="/RoverHandler.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374757347859" ignored="false" />
+    <file path="/a.dummy" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374753798909" ignored="false" />
+    <file path="/main.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374757515050" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -65,7 +70,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -78,28 +82,44 @@
       <file leaf-file-name="RoverGoLeftTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoLeftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="32" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+            <state line="48" column="20" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverGoRightTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RoverHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/handler/RoverHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="83" selection-start="981" selection-end="981" vertical-scroll-proportion="0.16962843">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoverGoRightTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoRightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="586" selection-end="586" vertical-scroll-proportion="-0.017770598">
+            <state line="20" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverGoAhead.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoAhead.java">
+      <file leaf-file-name="RoverGoAheadTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoAheadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="63" column="9" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoverHandlerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RoverHandlerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="8" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,16 +127,16 @@
       <file leaf-file-name="RoverPosition.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+            <state line="41" column="34" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsEqual.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/hamcrest/core/IsEqual.class">
+      <file leaf-file-name="WestDirection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="47" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
+            <state line="8" column="16" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,43 +145,25 @@
       <file leaf-file-name="SouthDirection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="19" column="13" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EastDirection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/EastDirection.java">
+      <file leaf-file-name="main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/main/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NorthDirection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="46" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoverDirection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="48" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
+            <state line="13" column="20" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/rover/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="24" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+            <state line="35" column="21" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,22 +179,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/RoverNorth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/RoverDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/WestDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/EastDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/SouthDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/NorthDirection.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RoverGoLeftTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/EastDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverGoRightTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverGoAhead.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoverGoAheadTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/InteractTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/handler/RoverHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/rover/Rover.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoverHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/EastDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/handler/RoverHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/main/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java" />
       </list>
     </option>
   </component>
@@ -230,6 +232,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,6 +316,100 @@
               <option name="myItemId" value="zhanhonglai" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsRoverVersion1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsRover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhanhonglai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="position" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsRoverVersion1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsRover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhanhonglai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsRoverVersion1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsRover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhanhonglai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -346,7 +443,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -367,41 +463,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhanhonglai.position.handler" />
       <recent name="com.zhanhonglai.position" />
       <recent name="com.zhanhonglai" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoverGoRightTest">
-    <configuration default="false" name="RoverGoLeftTest.directionShouldBeWestWhenTurnLeftFromNorth" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="Application.main">
+    <configuration default="false" name="RoverGoAheadTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="marsRoverVersion1.0" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverGoLeftTest" />
-      <option name="METHOD_NAME" value="directionShouldBeWestWhenTurnLeftFromNorth" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverGoLeftTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="marsRoverVersion1.0" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverGoLeftTest" />
+      <option name="MAIN_CLASS_NAME" value="RoverGoAheadTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -418,14 +492,37 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoverGoLeftTest.directionShouldBeNorthWhenTurnLeftFromEast" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RoverHandlerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="marsRoverVersion1.0" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverGoLeftTest" />
-      <option name="METHOD_NAME" value="directionShouldBeNorthWhenTurnLeftFromEast" />
+      <option name="MAIN_CLASS_NAME" value="RoverHandlerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverHandlerTest.shouldHandleCommandString" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="marsRoverVersion1.0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverHandlerTest" />
+      <option name="METHOD_NAME" value="shouldHandleCommandString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -441,15 +538,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoverGoRightTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RoverHandlerTest.shouldCreateInitialDirection" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="marsRoverVersion1.0" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverGoRightTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="RoverHandlerTest" />
+      <option name="METHOD_NAME" value="shouldCreateInitialDirection" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -460,6 +557,28 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhanhonglai.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zhanhonglai.main.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="marsRoverVersion1.0" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -476,6 +595,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -504,19 +636,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -555,18 +674,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RoverGoLeftTest.directionShouldBeWestWhenTurnLeftFromNorth" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RoverGoLeftTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverGoLeftTest.directionShouldBeNorthWhenTurnLeftFromEast" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverGoRightTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RoverGoAheadTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RoverHandlerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverHandlerTest.shouldHandleCommandString" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverHandlerTest.shouldCreateInitialDirection" />
+      <item index="4" class="java.lang.String" itemvalue="Application.main" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RoverGoRightTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverGoLeftTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverGoLeftTest.directionShouldBeNorthWhenTurnLeftFromEast" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RoverGoLeftTest.directionShouldBeWestWhenTurnLeftFromNorth" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverHandlerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverGoAheadTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RoverHandlerTest.shouldCreateInitialDirection" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RoverHandlerTest.shouldHandleCommandString" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -610,7 +731,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -679,116 +800,110 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/hamcrest/core/IsEqual.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="47" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="26" column="47" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java">
+    <entry file="file://$PROJECT_DIR$/marsRoverVersion1.0.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/hamcrest/core/Is.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="47" selection-start="701" selection-end="701" vertical-scroll-proportion="-8.96" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="46" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/EastDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="48" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoAhead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
+        <state line="8" column="16" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoLeftTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/EastDirection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="32" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+        <state line="7" column="16" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="41" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/rover/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="21" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/main/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="34" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoverHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="8" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoRightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="586" selection-end="586" vertical-scroll-proportion="-0.017770598">
+        <state line="20" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoLeftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="20" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoAheadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="9" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/handler/RoverHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="83" selection-start="981" selection-end="981" vertical-scroll-proportion="0.16962843">
           <folding />
         </state>
       </provider>

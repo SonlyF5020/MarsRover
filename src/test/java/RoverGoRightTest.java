@@ -1,4 +1,4 @@
-import com.zhanhonglai.Rover;
+import com.zhanhonglai.rover.Rover;
 import com.zhanhonglai.direction.*;
 import org.junit.Test;
 
