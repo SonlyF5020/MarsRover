@@ -1,5 +1,4 @@
 import com.zhanhonglai.direction.EastDirection;
-import com.zhanhonglai.direction.NorthDirection;
 import com.zhanhonglai.direction.RoverDirection;
 import com.zhanhonglai.direction.WestDirection;
 import com.zhanhonglai.handler.RoverHandler;
@@ -31,7 +30,7 @@ public class RoverHandlerTest {
         RoverHandler roverHandler = new RoverHandler();
         roverHandler.setRover(rover);
         //WHEN
-        roverHandler.handleCommand("Mrmlmrmlmrm");
+        roverHandler.handleCommands("Mrmlmrmlmrm");
         //THEN
         RoverDirection expectedDirection = new EastDirection();
         RoverPosition expectedPosition = new RoverPosition(3, 3);

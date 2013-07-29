@@ -5,7 +5,7 @@
     <ignored path="marsRoverVersion1.0.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/RoverGoLeftTest.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374731475467" ignored="false" />
-    <file path="/fragment.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375053747049" ignored="false" />
+    <file path="/fragment.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375057767093" ignored="false" />
     <file path="/RoverDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374753845401" ignored="false" />
     <file path="/Rover.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374752861974" ignored="false" />
     <file path="/NorthDirection.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374731902321" ignored="false" />
@@ -16,7 +16,7 @@
     <file path="/RoverGoAhead.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374742027351" ignored="false" />
     <file path="/RoverPosition.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374757219741" ignored="false" />
     <file path="/RoverHandlerTest.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374755230989" ignored="false" />
-    <file path="/RoverHandler.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375053737586" ignored="false" />
+    <file path="/RoverHandler.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375057959557" ignored="false" />
     <file path="/a.dummy" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374753798909" ignored="false" />
     <file path="/main.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1374757515050" ignored="false" />
     <file path="/Command.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375053497266" ignored="false" />
@@ -24,6 +24,9 @@
     <file path="/LeftCommand.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375053636194" ignored="false" />
     <file path="/RightCommand.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375053667547" ignored="false" />
     <file path="/UnknowCommand.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375053759979" ignored="false" />
+    <file path="/Dummy.txt" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375054088617" ignored="false" />
+    <file path="/CommandFactory.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375057710008" ignored="false" />
+    <file path="/DirectionFactory.java" changelist="81253def-2eea-40dc-b370-fdad18e04459" time="1375057777425" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,6 +77,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -84,31 +87,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RoverGoLeftTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoLeftTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="66" selection-start="1719" selection-end="1719" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RoverHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/handler/RoverHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="13" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.924812">
+            <state line="36" column="67" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.7027464">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnknowCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/UnknowCommand.java">
+      <file leaf-file-name="DirectionFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/DirectionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="15" column="26" selection-start="568" selection-end="572" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoverDirection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="34" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,9 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/RightCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,20 +127,43 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/LeftCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="25" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/MoveCommand.java">
+      <file leaf-file-name="SouthDirection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="5" column="13" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WestDirection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NorthDirection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/CommandFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="16" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,34 +171,7 @@
       <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="34" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoverGoRightTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoRightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="28" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/main/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoverGoAheadTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoAheadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="9" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.0">
+            <state line="5" column="16" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/RoverHandlerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/EastDirection.java" />
@@ -205,9 +198,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/LeftCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/RightCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/UnknowCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/handler/RoverHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverGoLeftTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverGoRightTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/DirectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/handler/RoverHandler.java" />
       </list>
     </option>
   </component>
@@ -245,6 +240,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -485,8 +482,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,11 +501,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhanhonglai.direction" />
       <recent name="com.zhanhonglai.command" />
       <recent name="com.zhanhonglai.handler" />
       <recent name="com.zhanhonglai.position.handler" />
       <recent name="com.zhanhonglai.position" />
-      <recent name="com.zhanhonglai" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in marsRoverVersion1.0">
@@ -845,95 +840,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="41" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/rover/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="21" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="34" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoverHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverGoAheadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="9" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/MoveCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/LeftCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/RightCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/UnknowCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,14 +863,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/main/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+        <state line="13" column="29" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/UnknowCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/MoveCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/DirectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="568" selection-end="572" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/NorthDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/RoverDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/SouthDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/direction/WestDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/LeftCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/command/RightCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/handler/RoverHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="13" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.924812">
+        <state line="36" column="67" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.7027464">
           <folding />
         </state>
       </provider>
